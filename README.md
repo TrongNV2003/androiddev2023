@@ -12,5 +12,5 @@ Student Info
 
 * Name: Nguyen Van Trong
 * ID: BI12-449
-* Group ID: *Your Group ID here*
+* Group ID: G4 - ICT
 
