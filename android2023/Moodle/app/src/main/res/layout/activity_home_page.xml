@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/courses"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="380dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:drawableLeft="@drawable/baseline_menu_book_24"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/abeezee"
+        android:text="My Courses"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:iconPadding="-185dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="602dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="361dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        app:srcCompat="@drawable/background2" />
+
+    <Button
+        android:id="@+id/catalog"
+        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        android:layout_width="380dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:drawableLeft="@drawable/baseline_folder_24"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/abeezee"
+        android:text="Course Catalog"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:iconPadding="-150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline13" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="425dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="338dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
